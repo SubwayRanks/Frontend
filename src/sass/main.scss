@@ -1,0 +1,16 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+html, body, #app-main {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+  padding-top: 100px;
+}
+
+.notifications {
+  margin-top: 66px;
+  margin-right: 5px;
+  font-size: 16px;
+}
