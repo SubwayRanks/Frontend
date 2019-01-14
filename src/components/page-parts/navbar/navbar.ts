@@ -40,6 +40,7 @@ export class NavbarComponent extends Vue {
     this.links = [
       new MenuItemInfo('home', this.$root.$t('layout.navbar.home'), '/'),
       new MenuItemInfo('search', this.$root.$t('layout.navbar.search'), '/search'),
+      new MenuItemInfo('signUp', '<i class="fa fa-user-lock fa-fw" />', 'modal-otp', MenuItemType.MODAL, ['otpEnabled', 'otpRequired']),
       new MenuItemInfo('account', this.$root.$t('layout.navbar.account'), '/account', undefined, ['authenticated']),
       new MenuItemInfo('signIn', this.$root.$t('layout.navbar.signIn'), 'modal-sign-in', MenuItemType.MODAL, ['guest']),
       new MenuItemInfo('signUp', this.$root.$t('layout.navbar.signUp'), 'modal-sign-up', MenuItemType.MODAL, ['guest']),

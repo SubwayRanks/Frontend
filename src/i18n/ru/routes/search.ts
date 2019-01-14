@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   submit: 'Искать',
   placeholder: 'Никнейм',
 };

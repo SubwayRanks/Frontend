@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   signIn: {
     login: 'Login or e-mail',
     password: 'Password',
@@ -26,5 +26,10 @@ export default {
     INVALID_EMAIL: 'Your email has incorrect format',
     INCOMPLETE_REQUEST: 'Request has not all parameters',
     undefined: 'Unexpected error',
+  },
+  otp: {
+    password: 'Password from app',
+    submit: 'Submit',
+    OTP_INVALID: 'One-time password is not valid',
   },
 };

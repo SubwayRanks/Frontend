@@ -33,7 +33,7 @@ export class ComponentTest {
       created() { console.log('test'); },
       template: this.template,
       components: this.components,
-      i18n: new VueI18n(require('../i18n').default),
+      i18n: new VueI18n(require('../i18n')),
       store: new Vuex.Store<State>(Store)
     };
     if (createOptions) merge(options, createOptions);
