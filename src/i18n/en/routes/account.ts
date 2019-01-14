@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   title: 'My account',
   yearsOld: '@:routes.profile.yearsOld',
   name: '@:layout.auth.signUp.name',

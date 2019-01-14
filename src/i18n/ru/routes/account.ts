@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   title: 'My account',
   yearsOld: '@:routes.profile.yearsOld',
   name: '@:layout.auth.signUp.name',
@@ -27,8 +27,8 @@ export default {
   SECRET_NOT_SET: 'Вы ни разу не видели QR-код',
   OTP_INVALID: 'Одноразовый пароль неверен',
   OTP_NOT_ENABLED: 'Двухфакторная аутентификация не включена на аккаунте',
-  failTitle: 'Успех!',
-  successTitle: 'Неудача :(',
+  failTitle: 'Неудача :(',
+  successTitle: 'Успех!',
   otpLinkSuccess: 'Вы успешно настроили двухфакторную аутентификацию',
   otpUnlinkSuccess: 'Вы успешно удалили двухфакторную аутентификацию с аккаунта',
   passwordsNotMatch: 'Подтверждение пароля не совпадает с паролем',

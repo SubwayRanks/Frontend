@@ -1,4 +1,4 @@
-export default {
-  navbar: require('./navbar').default,
-  auth: require('./auth').default,
+module.exports = {
+  navbar: require('./navbar'),
+  auth: require('./auth'),
 };

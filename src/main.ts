@@ -17,6 +17,7 @@ import PlurVueI18n from './util/i18n';
 const navbarComponent = () => import('./components/page-parts/navbar').then(({ NavbarComponent }) => NavbarComponent);
 const signInModal = () => import('./components/page-parts/modals/auth/signIn').then(({ SignInModal }) => SignInModal);
 const signUpModal = () => import('./components/page-parts/modals/auth/signUp').then(({ SignUpModal }) => SignUpModal);
+const otpModal = () => import('./components/page-parts/modals/auth/otp').then(({ OTPModal }) => OTPModal);
 
 Vue.use(VueAxios, axios);
 Vue.use(Vuex);
@@ -32,8 +33,9 @@ new Vue({
   components: {
     'navbar': navbarComponent,
     'sign-in-modal': signInModal,
-    'sign-up-modal': signUpModal
+    'sign-up-modal': signUpModal,
+    'otp-modal': otpModal
   },
-  i18n: new PlurVueI18n(require('./i18n').default),
+  i18n: new PlurVueI18n(require('./i18n')),
   store: new Vuex.Store<State>(Store)
 });

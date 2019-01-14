@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   home: 'Домой',
   search: 'Поиск',
   account: 'Аккаунт',

@@ -14,6 +14,7 @@
     <navbar :inverted="false"></navbar>
     <sign-in-modal v-if="!$auth.isAuthenticated()"></sign-in-modal>
     <sign-up-modal v-if="!$auth.isAuthenticated()"></sign-up-modal>
+    <otp-modal v-if="$store.getters.hasPermission('otpEnabled') && $store.getters.hasPermission('otpRequired')"></otp-modal>
     <router-view>loading...</router-view>
     <notifications animation-type="velocity" width="400"/>
   </div>

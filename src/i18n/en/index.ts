@@ -1,7 +1,7 @@
-export default {
+module.exports = {
   currency: {
     style: 'currency', currency: 'USD'
   },
-  layout: require('./layout').default,
-  routes: require('./routes').default,
+  layout: require('./layout'),
+  routes: require('./routes'),
 };
