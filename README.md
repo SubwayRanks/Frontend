@@ -1,4 +1,6 @@
 # SubwayRanks-frontend
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSubwayRanks%2FFrontend.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FSubwayRanks%2FFrontend?ref=badge_shield)
+
 > SubwayRanks frontend
 
 ## Build Setup
@@ -34,3 +36,7 @@ npm run build
 # clean the production build
 npm run clean
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSubwayRanks%2FFrontend.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FSubwayRanks%2FFrontend?ref=badge_large)
